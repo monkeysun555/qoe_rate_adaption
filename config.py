@@ -6,9 +6,9 @@ class Config(object):
     epsilon_start = 1.0
     epsilon_final = 0.0001
     if model_version == 0:
-        epsilon_decay = 30000.0          # less, focus faster
+        epsilon_decay = 50000.0          # less, focus faster
     else:
-        epsilon_decay = 30000.0          # less, focus faster
+        epsilon_decay = 50000.0          # less, focus faster
     logs_path = './models/logs_m_' + str(model_version) 
     reply_buffer_size = 2000
     total_episode = 100000
@@ -77,7 +77,7 @@ class Env_Config(object):
     est_high_noise = 1.02
 
     # Reward metrics parameters
-    action_reward = 1.0 * chunk_seg_ratio   
+    action_reward = 1.5 * chunk_seg_ratio   
     rebuf_penalty = 6.0                         
     smooth_penalty = 1.0
     long_delay_penalty = 4.0 * chunk_seg_ratio

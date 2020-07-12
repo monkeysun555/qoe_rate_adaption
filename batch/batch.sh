@@ -12,7 +12,7 @@
 module purge
 
 VIRTUALENV=$SCRATCH
-RUNDIR=$SCRATCH/low_latency_streaming/rate_adaption_torch
+RUNDIR=$SCRATCH/low_latency_streaming/qoe_rate_adaption
 
 cd $VIRTUALENV
 
