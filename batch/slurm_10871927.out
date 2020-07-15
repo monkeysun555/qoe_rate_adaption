@@ -1,0 +1,4 @@
+Fatal Python error: initsite: Failed to import the site module
+ModuleNotFoundError: No module named 'site'
+
+Current thread 0x00002b285d5ef080 (most recent call first):

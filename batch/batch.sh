@@ -16,7 +16,7 @@ RUNDIR=$SCRATCH/low_latency_streaming/qoe_rate_adaption
 
 cd $VIRTUALENV
 
-source ./torch/bin/activate
+source ./new_torch/bin/activate
   
 cd $RUNDIR
 python main.py 
